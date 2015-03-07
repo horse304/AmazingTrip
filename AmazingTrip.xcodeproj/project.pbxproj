@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8C8425D1AAB4F850079CC39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C8425C1AAB4F850079CC39 /* AppDelegate.swift */; };
+		F8C8425F1AAB4F850079CC39 /* ScheduleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C8425E1AAB4F850079CC39 /* ScheduleVC.swift */; };
+		F8C842611AAB4F850079CC39 /* CityNowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C842601AAB4F850079CC39 /* CityNowVC.swift */; };
+		F8C842641AAB4F850079CC39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8C842621AAB4F850079CC39 /* Main.storyboard */; };
+		F8C842661AAB4F850079CC39 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8C842651AAB4F850079CC39 /* Images.xcassets */; };
+		F8C842691AAB4F850079CC39 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8C842671AAB4F850079CC39 /* LaunchScreen.xib */; };
+		F8C842751AAB4F850079CC39 /* AmazingTripTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C842741AAB4F850079CC39 /* AmazingTripTests.swift */; };
+		F8C8427F1AAB51770079CC39 /* MeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C8427E1AAB51770079CC39 /* MeVC.swift */; };
+		F8C842851AAB52D90079CC39 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = F8C842841AAB52D90079CC39 /* README.md */; };
+		F8C842871AAB571E0079CC39 /* ToolsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C842861AAB571E0079CC39 /* ToolsVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8C8426F1AAB4F850079CC39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8C8424F1AAB4F850079CC39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8C842561AAB4F850079CC39;
+			remoteInfo = AmazingTrip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F8C842571AAB4F850079CC39 /* AmazingTrip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmazingTrip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8C8425B1AAB4F850079CC39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8C8425C1AAB4F850079CC39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F8C8425E1AAB4F850079CC39 /* ScheduleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleVC.swift; sourceTree = "<group>"; };
+		F8C842601AAB4F850079CC39 /* CityNowVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityNowVC.swift; sourceTree = "<group>"; };
+		F8C842631AAB4F850079CC39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F8C842651AAB4F850079CC39 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F8C842681AAB4F850079CC39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F8C8426E1AAB4F850079CC39 /* AmazingTripTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmazingTripTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8C842731AAB4F850079CC39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8C842741AAB4F850079CC39 /* AmazingTripTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmazingTripTests.swift; sourceTree = "<group>"; };
+		F8C8427E1AAB51770079CC39 /* MeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeVC.swift; sourceTree = "<group>"; };
+		F8C842841AAB52D90079CC39 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		F8C842861AAB571E0079CC39 /* ToolsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolsVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8C842541AAB4F850079CC39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8C8426B1AAB4F850079CC39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8C8424E1AAB4F850079CC39 = {
+			isa = PBXGroup;
+			children = (
+				F8C842591AAB4F850079CC39 /* AmazingTrip */,
+				F8C842711AAB4F850079CC39 /* AmazingTripTests */,
+				F8C842581AAB4F850079CC39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8C842581AAB4F850079CC39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8C842571AAB4F850079CC39 /* AmazingTrip.app */,
+				F8C8426E1AAB4F850079CC39 /* AmazingTripTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8C842591AAB4F850079CC39 /* AmazingTrip */ = {
+			isa = PBXGroup;
+			children = (
+				F8C842831AAB52800079CC39 /* Frameworks */,
+				F8C842801AAB52620079CC39 /* Assets */,
+				F8C8425C1AAB4F850079CC39 /* AppDelegate.swift */,
+				F8C8427E1AAB51770079CC39 /* MeVC.swift */,
+				F8C8425E1AAB4F850079CC39 /* ScheduleVC.swift */,
+				F8C842601AAB4F850079CC39 /* CityNowVC.swift */,
+				F8C842861AAB571E0079CC39 /* ToolsVC.swift */,
+				F8C842621AAB4F850079CC39 /* Main.storyboard */,
+				F8C842651AAB4F850079CC39 /* Images.xcassets */,
+				F8C842671AAB4F850079CC39 /* LaunchScreen.xib */,
+				F8C8425A1AAB4F850079CC39 /* Supporting Files */,
+				F8C842841AAB52D90079CC39 /* README.md */,
+			);
+			path = AmazingTrip;
+			sourceTree = "<group>";
+		};
+		F8C8425A1AAB4F850079CC39 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8C8425B1AAB4F850079CC39 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F8C842711AAB4F850079CC39 /* AmazingTripTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8C842741AAB4F850079CC39 /* AmazingTripTests.swift */,
+				F8C842721AAB4F850079CC39 /* Supporting Files */,
+			);
+			path = AmazingTripTests;
+			sourceTree = "<group>";
+		};
+		F8C842721AAB4F850079CC39 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8C842731AAB4F850079CC39 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F8C842801AAB52620079CC39 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				F8C842811AAB52620079CC39 /* html */,
+				F8C842821AAB52620079CC39 /* maps */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		F8C842811AAB52620079CC39 /* html */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = html;
+			sourceTree = "<group>";
+		};
+		F8C842821AAB52620079CC39 /* maps */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = maps;
+			sourceTree = "<group>";
+		};
+		F8C842831AAB52800079CC39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8C842561AAB4F850079CC39 /* AmazingTrip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8C842781AAB4F850079CC39 /* Build configuration list for PBXNativeTarget "AmazingTrip" */;
+			buildPhases = (
+				F8C842531AAB4F850079CC39 /* Sources */,
+				F8C842541AAB4F850079CC39 /* Frameworks */,
+				F8C842551AAB4F850079CC39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AmazingTrip;
+			productName = AmazingTrip;
+			productReference = F8C842571AAB4F850079CC39 /* AmazingTrip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8C8426D1AAB4F850079CC39 /* AmazingTripTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8C8427B1AAB4F850079CC39 /* Build configuration list for PBXNativeTarget "AmazingTripTests" */;
+			buildPhases = (
+				F8C8426A1AAB4F850079CC39 /* Sources */,
+				F8C8426B1AAB4F850079CC39 /* Frameworks */,
+				F8C8426C1AAB4F850079CC39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8C842701AAB4F850079CC39 /* PBXTargetDependency */,
+			);
+			name = AmazingTripTests;
+			productName = AmazingTripTests;
+			productReference = F8C8426E1AAB4F850079CC39 /* AmazingTripTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8C8424F1AAB4F850079CC39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "VNG Corp";
+				TargetAttributes = {
+					F8C842561AAB4F850079CC39 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					F8C8426D1AAB4F850079CC39 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = F8C842561AAB4F850079CC39;
+					};
+				};
+			};
+			buildConfigurationList = F8C842521AAB4F850079CC39 /* Build configuration list for PBXProject "AmazingTrip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8C8424E1AAB4F850079CC39;
+			productRefGroup = F8C842581AAB4F850079CC39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8C842561AAB4F850079CC39 /* AmazingTrip */,
+				F8C8426D1AAB4F850079CC39 /* AmazingTripTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8C842551AAB4F850079CC39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8C842641AAB4F850079CC39 /* Main.storyboard in Resources */,
+				F8C842691AAB4F850079CC39 /* LaunchScreen.xib in Resources */,
+				F8C842661AAB4F850079CC39 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8C8426C1AAB4F850079CC39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8C842531AAB4F850079CC39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8C842611AAB4F850079CC39 /* CityNowVC.swift in Sources */,
+				F8C8427F1AAB51770079CC39 /* MeVC.swift in Sources */,
+				F8C842871AAB571E0079CC39 /* ToolsVC.swift in Sources */,
+				F8C842851AAB52D90079CC39 /* README.md in Sources */,
+				F8C8425D1AAB4F850079CC39 /* AppDelegate.swift in Sources */,
+				F8C8425F1AAB4F850079CC39 /* ScheduleVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8C8426A1AAB4F850079CC39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8C842751AAB4F850079CC39 /* AmazingTripTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8C842701AAB4F850079CC39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8C842561AAB4F850079CC39 /* AmazingTrip */;
+			targetProxy = F8C8426F1AAB4F850079CC39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F8C842621AAB4F850079CC39 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8C842631AAB4F850079CC39 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F8C842671AAB4F850079CC39 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8C842681AAB4F850079CC39 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8C842761AAB4F850079CC39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8C842771AAB4F850079CC39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8C842791AAB4F850079CC39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AmazingTrip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F8C8427A1AAB4F850079CC39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AmazingTrip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F8C8427C1AAB4F850079CC39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AmazingTripTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmazingTrip.app/AmazingTrip";
+			};
+			name = Debug;
+		};
+		F8C8427D1AAB4F850079CC39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AmazingTripTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmazingTrip.app/AmazingTrip";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8C842521AAB4F850079CC39 /* Build configuration list for PBXProject "AmazingTrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8C842761AAB4F850079CC39 /* Debug */,
+				F8C842771AAB4F850079CC39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8C842781AAB4F850079CC39 /* Build configuration list for PBXNativeTarget "AmazingTrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8C842791AAB4F850079CC39 /* Debug */,
+				F8C8427A1AAB4F850079CC39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F8C8427B1AAB4F850079CC39 /* Build configuration list for PBXNativeTarget "AmazingTripTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8C8427C1AAB4F850079CC39 /* Debug */,
+				F8C8427D1AAB4F850079CC39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8C8424F1AAB4F850079CC39 /* Project object */;
+}
